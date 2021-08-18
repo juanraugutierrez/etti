@@ -1,0 +1,16 @@
+<?php
+//////////////////////////////////////
+// Valores de base de datos
+/////////////////////////////////////
+
+define('HOST', 'localhost');
+define('USER', 'root');
+define('PASSWORD', '');
+define('DB_NAME', 'curso_mvc');
+
+
+
+//////////////////////////////////////
+// Valores configuracion
+/////////////////////////////////////
+define('ERROR_REPORTING_LEVEL', -1);

@@ -1,0 +1,44 @@
+.separador{
+  border-top: 1px solid #C00;
+   border-top: solid blue;
+}
+
+
+.btn-es{
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom:.5em;
+  border-radius: 1.8rem;
+  color: white;
+  padding: 10 5 5 20;
+  background: #376fac linear-gradient(180deg,#bbb9da,#141516) repeat-x!important;
+  display: inline-block;
+    font-weight: 400;
+    
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    /* border: 1px solid transparent; */
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+
+}
+.btn-es:hover {
+  
+  background: #f3f5f7 linear-gradient(180deg,#bbb9da,#00060c) repeat-x!important;
+  color:yellow;
+}
+.bg-gradient-success1 {
+    color: #fff;
+}

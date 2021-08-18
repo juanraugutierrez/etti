@@ -1,0 +1,113 @@
+[01-Jul-2020 23:28:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/rpropied/public_html/etti.cl/php/productosn.php:10
+Stack trace:
+#0 /home/rpropied/public_html/etti.cl/php/productosn.php(10): PDO->__construct('mysql:dbname=co...', 'root', '')
+#1 {main}
+  thrown in /home/rpropied/public_html/etti.cl/php/productosn.php on line 10
+[01-Jul-2020 23:29:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'rpropied'@'localhost' to database 'covid' in /home/rpropied/public_html/etti.cl/php/productosn.php:10
+Stack trace:
+#0 /home/rpropied/public_html/etti.cl/php/productosn.php(10): PDO->__construct('mysql:dbname=co...', 'rpropied', 'b62D3Mqao3')
+#1 {main}
+  thrown in /home/rpropied/public_html/etti.cl/php/productosn.php on line 10
+[01-Jul-2020 23:30:46 UTC] PHP Warning:  require(/system/config.php): failed to open stream: No such file or directory in /home/rpropied/public_html/etti.cl/php/productosn.php on line 5
+[01-Jul-2020 23:30:46 UTC] PHP Fatal error:  require(): Failed opening required '/system/config.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/rpropied/public_html/etti.cl/php/productosn.php on line 5
+[01-Jul-2020 23:32:34 UTC] PHP Warning:  require(system/config.php): failed to open stream: No such file or directory in /home/rpropied/public_html/etti.cl/php/productosn.php on line 4
+[01-Jul-2020 23:32:34 UTC] PHP Fatal error:  require(): Failed opening required 'system/config.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/rpropied/public_html/etti.cl/php/productosn.php on line 4
+[01-Jul-2020 23:33:48 UTC] PHP Notice:  Undefined variable: clave in /home/rpropied/public_html/etti.cl/php/productosn.php on line 7
+[01-Jul-2020 23:33:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'rpropied'@'localhost' (using password: NO) in /home/rpropied/public_html/etti.cl/php/productosn.php:7
+Stack trace:
+#0 /home/rpropied/public_html/etti.cl/php/productosn.php(7): PDO->__construct('mysql:host=loca...', 'rpropied', NULL)
+#1 {main}
+  thrown in /home/rpropied/public_html/etti.cl/php/productosn.php on line 7
+[01-Jul-2020 23:45:49 UTC] PHP Notice:  Undefined variable: clave in /home/rpropied/public_html/etti.cl/php/productosn.php on line 7
+[01-Jul-2020 23:45:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'rpropied'@'localhost' (using password: NO) in /home/rpropied/public_html/etti.cl/php/productosn.php:7
+Stack trace:
+#0 /home/rpropied/public_html/etti.cl/php/productosn.php(7): PDO->__construct('mysql:host=loca...', 'rpropied', NULL)
+#1 {main}
+  thrown in /home/rpropied/public_html/etti.cl/php/productosn.php on line 7
+[01-Jul-2020 23:48:39 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rpropied/public_html/etti.cl/php/productosn.php on line 9
+[01-Jul-2020 23:48:39 UTC] PHP Notice:  Undefined variable: clave in /home/rpropied/public_html/etti.cl/php/productosn.php on line 15
+[01-Jul-2020 23:48:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'rpropied'@'localhost' (using password: NO) in /home/rpropied/public_html/etti.cl/php/productosn.php:15
+Stack trace:
+#0 /home/rpropied/public_html/etti.cl/php/productosn.php(15): PDO->__construct('mysql:host=loca...', 'rpropied', NULL)
+#1 {main}
+  thrown in /home/rpropied/public_html/etti.cl/php/productosn.php on line 15
+[01-Jul-2020 23:50:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rpropied/public_html/etti.cl/php/productosn.php on line 9
+[01-Jul-2020 23:50:11 UTC] PHP Notice:  Undefined variable: contraseña in /home/rpropied/public_html/etti.cl/php/productosn.php on line 15
+[01-Jul-2020 23:50:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'rpropied'@'localhost' (using password: NO) in /home/rpropied/public_html/etti.cl/php/productosn.php:15
+Stack trace:
+#0 /home/rpropied/public_html/etti.cl/php/productosn.php(15): PDO->__construct('mysql:host=loca...', 'rpropied', NULL)
+#1 {main}
+  thrown in /home/rpropied/public_html/etti.cl/php/productosn.php on line 15
+[01-Jul-2020 23:50:42 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rpropied/public_html/etti.cl/php/productosn.php on line 9
+[13-Jul-2020 10:32:16 UTC] PHP Notice:  Undefined variable: clave in /home/rpropied/public_html/etti.cl/php/productosn.php on line 8
+[13-Jul-2020 10:32:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'rpropied'@'localhost' (using password: NO) in /home/rpropied/public_html/etti.cl/php/productosn.php:8
+Stack trace:
+#0 /home/rpropied/public_html/etti.cl/php/productosn.php(8): PDO->__construct('mysql:host=loca...', 'rpropied', NULL)
+#1 {main}
+  thrown in /home/rpropied/public_html/etti.cl/php/productosn.php on line 8
+[13-Jul-2020 10:33:08 UTC] PHP Notice:  Undefined variable: clave in /home/rpropied/public_html/etti.cl/php/productosn.php on line 8
+[13-Jul-2020 10:33:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'rpropied'@'localhost' (using password: NO) in /home/rpropied/public_html/etti.cl/php/productosn.php:8
+Stack trace:
+#0 /home/rpropied/public_html/etti.cl/php/productosn.php(8): PDO->__construct('mysql:host=loca...', 'rpropied', NULL)
+#1 {main}
+  thrown in /home/rpropied/public_html/etti.cl/php/productosn.php on line 8
+[13-Jul-2020 10:46:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in /home/rpropied/public_html/etti.cl/php/agroferta.php:133
+Stack trace:
+#0 /home/rpropied/public_html/etti.cl/php/agroferta.php(133): PDOStatement->execute()
+#1 {main}
+  thrown in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 133
+[13-Jul-2020 10:47:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in /home/rpropied/public_html/etti.cl/php/agroferta.php:133
+Stack trace:
+#0 /home/rpropied/public_html/etti.cl/php/agroferta.php(133): PDOStatement->execute()
+#1 {main}
+  thrown in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 133
+[13-Jul-2020 11:26:26 UTC] PHP Notice:  Undefined index: ficha in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 12
+[13-Jul-2020 11:26:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 12
+[13-Jul-2020 11:26:26 UTC] PHP Notice:  Undefined index: foto in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 60
+[13-Jul-2020 11:26:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 60
+[13-Jul-2020 11:26:26 UTC] PHP Notice:  Undefined index: lproductos in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 102
+[13-Jul-2020 11:26:26 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 105
+[13-Jul-2020 11:26:26 UTC] PHP Notice:  Undefined index: lmovimiento in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 112
+[13-Jul-2020 11:26:26 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 115
+[13-Jul-2020 11:26:26 UTC] PHP Notice:  Undefined index: ncantidad in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 121
+[13-Jul-2020 11:26:26 UTC] PHP Notice:  Undefined index: nprecio in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 123
+[13-Jul-2020 11:26:26 UTC] PHP Notice:  Undefined index: id_cliente in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 131
+[13-Jul-2020 11:26:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_producto' cannot be null in /home/rpropied/public_html/etti.cl/php/agroferta.php:133
+Stack trace:
+#0 /home/rpropied/public_html/etti.cl/php/agroferta.php(133): PDOStatement->execute()
+#1 {main}
+  thrown in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 133
+[13-Jul-2020 11:27:15 UTC] PHP Notice:  Undefined index: ficha in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 12
+[13-Jul-2020 11:27:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 12
+[13-Jul-2020 11:27:15 UTC] PHP Notice:  Undefined index: foto in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 60
+[13-Jul-2020 11:27:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 60
+[13-Jul-2020 11:27:15 UTC] PHP Notice:  Undefined index: lproductos in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 102
+[13-Jul-2020 11:27:15 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 105
+[13-Jul-2020 11:27:15 UTC] PHP Notice:  Undefined index: lmovimiento in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 112
+[13-Jul-2020 11:27:15 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 115
+[13-Jul-2020 11:27:15 UTC] PHP Notice:  Undefined index: ncantidad in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 121
+[13-Jul-2020 11:27:15 UTC] PHP Notice:  Undefined index: nprecio in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 123
+[13-Jul-2020 11:27:15 UTC] PHP Notice:  Undefined index: id_cliente in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 131
+[13-Jul-2020 11:27:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_producto' cannot be null in /home/rpropied/public_html/etti.cl/php/agroferta.php:133
+Stack trace:
+#0 /home/rpropied/public_html/etti.cl/php/agroferta.php(133): PDOStatement->execute()
+#1 {main}
+  thrown in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 133
+[13-Jul-2020 11:27:47 UTC] PHP Notice:  Undefined index: ficha in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 12
+[13-Jul-2020 11:27:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 12
+[13-Jul-2020 11:27:47 UTC] PHP Notice:  Undefined index: foto in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 60
+[13-Jul-2020 11:27:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 60
+[13-Jul-2020 11:27:47 UTC] PHP Notice:  Undefined index: lproductos in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 102
+[13-Jul-2020 11:27:47 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 105
+[13-Jul-2020 11:27:47 UTC] PHP Notice:  Undefined index: lmovimiento in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 112
+[13-Jul-2020 11:27:47 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 115
+[13-Jul-2020 11:27:47 UTC] PHP Notice:  Undefined index: ncantidad in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 121
+[13-Jul-2020 11:27:47 UTC] PHP Notice:  Undefined index: nprecio in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 123
+[13-Jul-2020 11:27:47 UTC] PHP Notice:  Undefined index: id_cliente in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 131
+[13-Jul-2020 11:27:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_producto' cannot be null in /home/rpropied/public_html/etti.cl/php/agroferta.php:133
+Stack trace:
+#0 /home/rpropied/public_html/etti.cl/php/agroferta.php(133): PDOStatement->execute()
+#1 {main}
+  thrown in /home/rpropied/public_html/etti.cl/php/agroferta.php on line 133
+[17-Jul-2020 20:35:13 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/rpropied/public_html/etti.cl/php/verifica.php on line 18
+[21-Jul-2020 11:33:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/rpropied/public_html/etti.cl/php/verifica.php on line 18
