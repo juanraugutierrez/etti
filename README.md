@@ -1,6 +1,13 @@
 
-##ETTI
 
--Sistema de ventas B2B.
--Programado con PHP y BBDD Mysql
--Generacion de Reportes
+## ETTI
+
+**
+
+## Sistema de venta B2B
+
+El sistema esta construido en Php con acceso a una **BBDD** **MySql**.
+
+ - Tiene perfilamiento de  usuarios
+ - Maneja categorías de productos y mantiene el control de stock
+ - Registra ofertas, compras y adjudicaciones
